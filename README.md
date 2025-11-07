@@ -23,5 +23,5 @@ cd meow-and-furrever
 ```
 See the `ROADMAP.md` file for detailed tasks and sprint progress
 ## License
-This project is licensed under the [MIT License] (./LICENSE).
+This project is licensed under the [MIT License](./LICENSE).
 You may use, adapt, or share this project with proper credit.
