@@ -13,14 +13,14 @@
 #### Research & Setup
 - [x] Create project repository on Github
 - [x] Write initial README and ROADMAP
-- [ ] Identify at least one open-source pet care app to evaluate
+- [x] Identify at least one open-source pet care app to evaluate
 - [ ] Clone and test a related repository
-- [ ] Document useful features that could apply to cat-specific care
+- [x] Document useful features that could apply to cat-specific care
 #### App Concept Development
 - [ ] Outline cat profile design (name, age, breed, vet info, reminders)
 - [ ] Design myth-busting and cat fact feature sections
 #### Educational Content
-- [ ] Research and summarize top myths about cats
+- [x] Research and summarize top myths about cats
 - [ ] Write educational blurbs promoting vet visits and preventative care
 - [ ] Collect data on cat vs. dog care trends and common misconceptions
 ## Sprint 2 - Design & Content Creation
