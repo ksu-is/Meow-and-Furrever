@@ -42,3 +42,7 @@
   - [ ] Draft educational text blurbs for common cat myths
   - [ ] Add images or icons supporting cat health awareness
   - [ ] Format content for easy integration into app or web prototype
+  #### Testing & Review
+  - [ ] Test profile creation flow for bugs or missing fields
+  - [ ] Verify content displays correctly in UI mockups
+  - [ ] Collect feedback for improvements
