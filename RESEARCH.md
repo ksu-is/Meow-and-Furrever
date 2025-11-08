@@ -32,3 +32,25 @@ Web platform for pet adoption, donation, and emergency care.
 - **Notes / Ideas for Meow & Furrever:**
   - Use their card layout for "My Cat's Profile"
   - Can borrow their form validation patterns for profile input form
+## 2. Cat Care Data and Myths
+### Myth 1
+- **Statement:** "Cats always land on their feet."
+- **Truth / Explanation:** Cats are extremely agile and have a very flexible spine that allows them to twist in mid-air and land on their feet, most of the time. Cats aren’t foolproof and can still injure themselves in falls, often with chin and teeth injuries.
+- **Source:** https://cats.com/cat-myths
+### Myth 2
+- **Statement:** "You can't train cats."
+- **Truth / Explanation:** You can train them to stay off certain things, perform basic tricks, and other basic tasks.
+- **Source:** https://www.catster.com/lifestyle/cat-myths/
+### Myth 3
+- **Statement:** "Cats are low-maintenance pets."
+- **Truth / Explanation:** Cats that are housed exclusively indoors need a lot of enrichment in order to stay happy and healthy. Sunny windows, interactive cat toys, quality food and clean litter boxes will keep your cat happy.
+- **Source:** https://www.rd.com/list/common-cat-myths/
+### Myth 4
+- **Statement:** "Declawing isn't harmful."
+- **Truth / Explanation:** You should never declaw your cat, as it leads to long-term pain that your cat will have to deal with for the rest of their life, as well as potentially long-term behavioral issues. Declawing is a surgical procedure that would be the equivalent of amputating your fingers at the knuckles closest to the fingertips.
+- **Source:** https://www.catster.com/lifestyle/cat-myths/
+### Myth 5
+- **Statement:** "Cats are aloof and independent."
+- **Truth / Explanation:** Research contradicts the stereotype of the emotionally detached cat. Studies show that cats form genuine attachments to their humans similar to those between children and parents. Many cats experience separation anxiety when their favorite people leave. They often express affection through subtle behaviors like slow blinking, bringing ‘gifts,’ and following their humans from room to room. These social creatures simply communicate differently than dogs do.
+- **Source:** https://www.petmojo.com/cat-myths-people-often-believe-and-what-is-really-true/
+- 
