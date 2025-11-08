@@ -34,4 +34,7 @@
   - [ ] Create mockups for "My Cat's Profile" UI screens
   - [ ] Design layout for myth-busting and educational content sections
   - [ ] Choose visuals for the app (color scheme, typography, etc.)
- 
+  #### Feature Development
+  - [ ] Implement basic "My Cat's Profile" page structure to code
+  - [ ] Add input fields: name, age, breed, vet info, reminders
+  - [ ] Save cat profile information
