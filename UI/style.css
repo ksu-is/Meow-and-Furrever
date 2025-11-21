@@ -42,6 +42,12 @@ body {
     color: #4f4a57;
 }
 
+.subtagline {
+    margin: 4px 0 0;
+    font-size: 0.85rem;
+    color: #5f566c;
+}
+
 /* Layout */
 .container {
     max-width: 900px;
@@ -78,6 +84,75 @@ body {
 
 .card-wellness {
     border-left: 4px solid #c5f2d5;
+}
+
+.card-message {
+    border-left: 4px solid #f5d27b;
+}
+
+/* Message layout (cats are not small dogs) */
+.message-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.message-text p {
+    margin-top: 4px;
+}
+
+.message-illustration {
+    text-align: center;
+}
+
+.cat-illustration {
+    max-width: 260px;
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    background-color: #fdf7ff;
+}
+
+.small-illustration {
+    max-width: 200px;
+}
+
+.illustration-caption {
+    font-size: 0.75rem;
+    color: #8a8196;
+    margin-top: 6px;
+}
+
+/* Side-by-side layouts on bigger screens */
+@media (min-width: 720px) {
+    .message-layout {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .message-text {
+        flex: 2;
+    }
+
+    .message-illustration {
+        flex: 1;
+    }
+
+    .myth-layout {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+    }
+
+    .myth-text-block {
+        flex: 2;
+    }
+
+    .myth-illustration {
+        flex: 1;
+        text-align: center;
+    }
 }
 
 /* Lists & text */
