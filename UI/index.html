@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,58 +7,73 @@
 </head>
 <body>
     <header class="site-header">
-        <h1>Meow and Furrever</h1>
-        <p class="tagline">Because cats deserve care.</p>
+        <div class="logo-tag">
+            <span class="logo-paw">🐾</span>
+            <div class="logo-text">
+                <h1>Meow and Furrever</h1>
+                <p class="tagline">Because cats deserve care, not assumptions.</p>
+            </div>
+        </div>
     </header>
 
     <main class="container">
-        <section class="card">
-            <h2>Cat Profile</h2>
-            <p>
-                This section will show your cat's profile, including their name, age,
-                breed, and color pattern.
+        <section class="card card-profile">
+            <h2>🐱 Your Cat's Profile</h2>
+            <p class="card-intro">
+                One place for your cat’s basic info. In a future version, this will be filled
+                in from your Python <code>cat_profile.py</code> file.
             </p>
-            <ul class="placeholder-list">
-                <li><strong>Name:</strong> Example: Milo</li>
-                <li><strong>Age:</strong> 3 years</li>
-                <li><strong>Breed:</strong> Domestic Shorthair</li>
-                <li><strong>Color / Pattern:</strong> Tuxedo</li>
-                <li><strong>Living Style:</strong> Indoor</li>
+            <ul class="cute-list">
+                <li><span class="label">Name:</span> Milo</li>
+                <li><span class="label">Age:</span> 3 years</li>
+                <li><span class="label">Breed:</span> Domestic Shorthair</li>
+                <li><span class="label">Color / Pattern:</span> Tuxedo</li>
+                <li><span class="label">Living Style:</span> Indoor</li>
             </ul>
+            <p class="tiny-note">Future UI: form fields to add your own cat.</p>
         </section>
 
-        <section class="card">
-            <h2>Myth of the Day</h2>
+        <div class="paw-divider">⋆ ˚｡⋆୨୧⋆｡˚ ⋆</div>
+
+        <section class="card card-myth">
+            <h2>✨ Myth of the Day</h2>
             <p class="hint">
-                In the future, this will come from your <code>myth_data.json</code> file.
+                This will eventually pull from your <code>myth_data.json</code> file
+                using <code>myths.py</code>.
             </p>
-            <p class="myth-label">Myth:</p>
+            <p class="pill myth-pill">Myth</p>
             <p class="myth-text">
                 Cats don't need yearly vet checkups.
             </p>
-            <p class="truth-label">Truth:</p>
+            <p class="pill truth-pill">Truth</p>
             <p class="truth-text">
                 Cats hide pain and illness extremely well. Regular exams catch issues early,
                 even in indoor cats.
             </p>
         </section>
 
-        <section class="card">
-            <h2>Wellness Reminders</h2>
+        <div class="paw-divider">🐾 🐾 🐾</div>
+
+        <section class="card card-wellness">
+            <h2>🩺 Wellness Reminders</h2>
             <p class="hint">
-                These match the messages from <code>vet_reminder.py</code>.
+                These match the messages in <code>vet_reminder.py</code>.
             </p>
-            <ul class="placeholder-list">
-                <li>Yearly wellness exam reminder</li>
-                <li>Dental care reminder</li>
-                <li>Indoor cat still needs vaccines &amp; parasite prevention</li>
-                <li>Extra checkups for senior cats (age 7+)</li>
+            <ul class="cute-list">
+                <li>Yearly wellness exams, even for indoor cats</li>
+                <li>Dental care to prevent pain and infection</li>
+                <li>Parasite prevention and vaccines as recommended</li>
+                <li>Extra checkups for senior cats (around age 7+)</li>
             </ul>
+            <p class="tiny-note">
+                Future idea: reminders based on your cat’s age and indoor/outdoor status.
+            </p>
         </section>
     </main>
 
     <footer class="site-footer">
-        <p>Meow and Furrever · Educational demo for responsible cat care</p>
+        <p>Meow and Furrever · Demo app for responsible feline care 🐈‍⬛</p>
     </footer>
 </body>
 </html>
+
