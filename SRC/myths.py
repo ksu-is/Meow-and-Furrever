@@ -1,7 +1,7 @@
 import json
 import random
 
-def load_myths(filepath="data/myth_data.json"):
+def load_myths(filepath="../DATA/myth_data.json"):
   try:
     with open(filepath, "r") as file:
       myths = json.load(file)
