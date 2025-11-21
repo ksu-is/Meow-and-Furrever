@@ -1,0 +1,59 @@
+# ------------------------------
+# macOS system files
+# ------------------------------
+.DS_Store
+.DS_Store?
+._*
+
+# ------------------------------
+# Python cache & compiled files
+# ------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments (if you add one later)
+venv/
+env/
+.venv/
+
+# ------------------------------
+# VS Code settings
+# ------------------------------
+.vscode/
+*.code-workspace
+
+# ------------------------------
+# Node / Frontend stuff (safe to ignore if added later)
+# ------------------------------
+node_modules/
+dist/
+build/
+
+# ------------------------------
+# Logs
+# ------------------------------
+*.log
+
+# ------------------------------
+# Temporary files
+# ------------------------------
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# ------------------------------
+# HTML/CSS auto-generated files
+# ------------------------------
+*.map
+
+# ------------------------------
+# OS thumbnails / metadata
+# ------------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
