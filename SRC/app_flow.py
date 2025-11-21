@@ -39,3 +39,16 @@ if myth:
   print("Truth:  ", myth["truth"])
 else:
   print("\nNo myths available.")
+
+# Vet Wellness Reminders
+print("\nWellness Reminders")
+print("~~~~~~~~~~~~~~~~~~~~")
+print(yearly_checkup(name))
+print(dental_health_reminder(name))
+print(indoor_cat_reminder(name))
+
+senior_msg = senior_cat_checkup(name, age)
+if senior_msg
+  print(senior_msg)
+
+print("\nThank you for using Meow and Furrever!")
