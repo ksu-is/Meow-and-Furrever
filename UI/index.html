@@ -1,13 +1,68 @@
-<!-- Example Cat Profile -->
-<section class="card card-profile">
-    <h2>Cat Profile</h2>
-    <p class="card-intro">
-        Enter your cat's information and see the profile update on the right.
-    </p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meow and Furrever</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="logo-tag">
+            <span class="logo-paw">🐾</span>
+            <div class="logo-text">
+                <h1>Meow and Furrever</h1>
+                <p class="tagline">Because cats deserve care.</p>
+            </div>
+        </div>
+    </header>
 
-    <div class="profile-layout">
-        <!-- Form -->
-        <form id="cat-form" class="cat-form">
+    <main class="container">
+        <!-- Hero / Illustration + Message -->
+        <section class="card card-message">
+            <div class="message-layout">
+                <div class="message-illustration">
+                    <img
+                        src="images/cat-illustration-1.png"
+                        alt="Illustration of a relaxed indoor cat on a cozy cushion"
+                        class="cat-illustration"
+                    >
+                    <p class="illustration-caption">
+                        Your custom cat illustration
+                    </p>
+                </div>
+                <div class="message-text">
+                    <h2>🐈 Cats Are Not Small Dogs</h2>
+                    <p>
+                        Cats aren't just "low-maintenance dogs." They are a completely different species with their
+                        own body language, medical needs, and stress signs. Treating them like small dogs often means
+                        missing early warning signs when something is wrong.
+                    </p>
+                    <ul class="cute-list">
+                        <li>They hide pain instead of crying or limping.</li>
+                        <li>They're obligate carnivores with different nutrition needs.</li>
+                        <li>Stress shows up as hiding, not barking or whining.</li>
+                        <li>"Independent" doesn't mean they don't need care and attention.</li>
+                    </ul>
+                    <p class="tiny-note">
+                        Meow and Furrever exists to remind people that cats deserve thoughtful, cat-specific care.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <div class="paw-divider">⋆ ˚｡⋆୨୧⋆｡˚ ⋆</div>
+
+        <!-- Example Cat Profile -->
+        <section class="card card-profile">
+            <h2>🐱 Cat Profile</h2>
+            <p class="card-intro">
+                Enter your cat's information and see the profile update on the right.
+            </p>
+
+            <div class="profile-layout">
+                <!-- Form -->
+                <form id="cat-form" class="cat-form">
             <div class="form-row">
                 <label for="cat-name-input">Name</label>
                 <input id="cat-name-input" type="text" placeholder="Luna">
