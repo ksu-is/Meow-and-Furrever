@@ -1,200 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Meow and Furrever</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header class="site-header">
-        <div class="logo-tag">
-            <span class="logo-paw">🐾</span>
-            <div class="logo-text">
-                <h1>Meow and Furrever</h1>
-                <p class="tagline">Because cats deserve care.</p>
+<!-- Example Cat Profile -->
+<section class="card card-profile">
+    <h2>Cat Profile</h2>
+    <p class="card-intro">
+        Enter your cat's information and see the profile update on the right.
+    </p>
+
+    <div class="profile-layout">
+        <!-- Form -->
+        <form id="cat-form" class="cat-form">
+            <div class="form-row">
+                <label for="cat-name-input">Name</label>
+                <input id="cat-name-input" type="text" placeholder="Luna">
             </div>
+
+            <div class="form-row">
+                <label for="cat-age-input">Age (years)</label>
+                <input id="cat-age-input" type="number" min="0" step="1" placeholder="3">
+            </div>
+
+            <div class="form-row">
+                <label for="cat-breed-input">Breed</label>
+                <input id="cat-breed-input" type="text" placeholder="Domestic Shorthair">
+            </div>
+
+            <div class="form-row">
+                <label for="cat-pattern-input">Pattern</label>
+                <input id="cat-pattern-input" type="text" placeholder="Tuxedo">
+            </div>
+
+            <div class="form-row">
+                <label for="cat-living-input">Living Style</label>
+                <input id="cat-living-input" type="text" placeholder="Indoor">
+            </div>
+
+            <button type="button" id="update-profile-btn">
+                Update Profile
+            </button>
+        </form>
+
+        <!-- Display -->
+        <div class="profile-display">
+            <h3>Current Profile</h3>
+            <ul class="simple-list">
+                <li><span class="label">Name:</span> <span id="display-name">Luna</span></li>
+                <li><span class="label">Age:</span> <span id="display-age">3 years</span></li>
+                <li><span class="label">Breed:</span> <span id="display-breed">Domestic Shorthair</span></li>
+                <li><span class="label">Pattern:</span> <span id="display-pattern">Tuxedo</span></li>
+                <li><span class="label">Living Style:</span> <span id="display-living">Indoor</span></li>
+            </ul>
         </div>
-    </header>
+    </div>
+</section>
 
-    <main class="container">
-        <!-- Hero / Illustration + Message -->
-        <section class="card card-message">
-            <div class="message-layout">
-                <div class="message-illustration">
-                    <img
-                        src="images/cat-illustration-1.png"
-                        alt="Illustration of a relaxed indoor cat on a cozy cushion"
-                        class="cat-illustration"
-                    >
-                    <p class="illustration-caption">
-                        Placeholder art — future idea: a custom illustration for your app.
-                    </p>
-                </div>
-                <div class="message-text">
-                    <h2>🐈 Cats Are Not Small Dogs</h2>
-                    <p>
-                        Cats aren’t just “low-maintenance dogs.” They are a completely different species with their
-                        own body language, medical needs, and stress signs. Treating them like small dogs often means
-                        missing early warning signs when something is wrong.
-                    </p>
-                    <ul class="cute-list">
-                        <li>They hide pain instead of crying or limping.</li>
-                        <li>They’re obligate carnivores with different nutrition needs.</li>
-                        <li>Stress shows up as hiding, not barking or whining.</li>
-                        <li>“Independent” doesn’t mean they don’t need care and attention.</li>
-                    </ul>
-                    <p class="tiny-note">
-                        Meow and Furrever exists to remind people that cats deserve thoughtful, cat-specific care.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <div class="paw-divider">⋆ ˚｡⋆୨୧⋆｡˚ ⋆</div>
-
-        <!-- Cat Profile: Form + Example Display -->
-        <section class="card card-profile">
-            <h2>🐱 Your Cat's Profile</h2>
-            <p class="card-intro">
-                This mockup shows how a future version of Meow and Furrever could collect and display your cat’s info.
-                In Sprint 3, this is a visual-only form (no backend connection yet).
-            </p>
-
-            <div class="profile-layout">
-                <form class="cat-form">
-                    <div class="form-row">
-                        <label for="cat-name">Name</label>
-                        <input id="cat-name" type="text" placeholder="Milo">
-                    </div>
-
-                    <div class="form-row">
-                        <label for="cat-age">Age (years)</label>
-                        <input id="cat-age" type="number" min="0" step="1" placeholder="3">
-                    </div>
-
-                    <div class="form-row">
-                        <label for="cat-breed">Breed</label>
-                        <select id="cat-breed">
-                            <option>Domestic Shorthair</option>
-                            <option>Domestic Longhair</option>
-                            <option>Siamese</option>
-                            <option>Maine Coon</option>
-                            <option>Ragdoll</option>
-                            <option>Other / Mixed</option>
-                        </select>
-                    </div>
-
-                    <div class="form-row">
-                        <label for="cat-pattern">Color / Pattern</label>
-                        <select id="cat-pattern">
-                            <option>Tuxedo</option>
-                            <option>Tabby</option>
-                            <option>Calico</option>
-                            <option>Tortoiseshell</option>
-                            <option>Solid</option>
-                            <option>Other</option>
-                        </select>
-                    </div>
-
-                    <div class="form-row">
-                        <span class="label">Living Style</span>
-                        <div class="radio-group">
-                            <label><input type="radio" name="living-style" checked> Indoor</label>
-                            <label><input type="radio" name="living-style"> Outdoor</label>
-                            <label><input type="radio" name="living-style"> Indoor with supervised outdoor time</label>
-                        </div>
-                    </div>
-
-                    <p class="tiny-note">
-                        Future idea: this form could send data to your Python code and update the profile automatically.
-                    </p>
-                </form>
-
-                <div class="profile-preview">
-                    <h3>Example Profile</h3>
-                    <ul class="cute-list">
-                        <li><span class="label">Name:</span> Milo</li>
-                        <li><span class="label">Age:</span> 3 years</li>
-                        <li><span class="label">Breed:</span> Domestic Shorthair</li>
-                        <li><span class="label">Color / Pattern:</span> Tuxedo</li>
-                        <li><span class="label">Living Style:</span> Indoor</li>
-                    </ul>
-                    <p class="tiny-note">
-                        This represents the kind of profile your app will generate from user input.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <div class="paw-divider">⋆ 🐾 ⋆</div>
-
-        <section class="card card-myth">
-            <div class="myth-layout">
-                <div class="myth-text-block">
-                    <h2>✨ Myth of the Day</h2>
-                    <p class="hint">
-                        This will eventually pull from your <code>myth_data.json</code> file
-                        using <code>myths.py</code>.
-                    </p>
-                    <p class="pill myth-pill">Myth</p>
-                    <p class="myth-text">
-                        Cats don't need yearly vet checkups.
-                    </p>
-                    <p class="pill truth-pill">Truth</p>
-                    <p class="truth-text">
-                        Cats hide pain and illness extremely well. Regular exams catch issues early,
-                        even in indoor cats.
-                    </p>
-                </div>
-                <div class="myth-illustration">
-                    <img
-                        src="images/myth-illustration.png"
-                        alt="Illustration of a cat being examined at the vet"
-                        class="cat-illustration small-illustration"
-                    >
-                </div>
-            </div>
-        </section>
-
-        <div class="paw-divider">🐾 🐾 🐾</div>
-
-        <section class="card card-wellness">
-            <h2>🩺 Wellness Reminders</h2>
-            <p class="hint">
-                These match the messages in <code>vet_reminder.py</code>.
-            </p>
-            <ul class="cute-list">
-                <li>Yearly wellness exams, even for indoor cats</li>
-                <li>Dental care to prevent pain and infection</li>
-                <li>Parasite prevention and vaccines as recommended</li>
-                <li>Extra checkups for senior cats (around age 7+)</li>
-            </ul>
-            <p class="tiny-note">
-                Future idea: reminders based on your cat’s age and indoor/outdoor status.
-            </p>
-        </section>
-
-        <section class="card card-wellness">
-            <h2>🎮 Grooming & Enrichment Ideas</h2>
-            <p class="hint">
-                These tips match what a future <code>care_tips.py</code> file can provide.
-            </p>
-            <ul class="cute-list">
-                <li>Short, daily play sessions are better than once-a-week marathons.</li>
-                <li>Rotate toys so your cat doesn’t get bored of the same ones.</li>
-                <li>Offer vertical space like shelves or cat trees for climbing.</li>
-                <li>Long-haired cats often need daily brushing to prevent mats.</li>
-            </ul>
-            <p class="tiny-note">
-                Future idea: show tailored tips based on coat length, age, and activity level.
-            </p>
-        </section>
-    </main>
-
-    <footer class="site-footer">
-        <p>Meow and Furrever · Demo app for responsible feline care 🐈‍⬛</p>
-    </footer>
-</body>
-</html>
 
 
