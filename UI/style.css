@@ -304,3 +304,63 @@ body {
     padding: 10px 16px 18px;
 }
 
+.profile-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+@media (min-width: 720px) {
+    .profile-layout {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .cat-form, .profile-display {
+        flex: 1;
+    }
+}
+
+.cat-form {
+    background: #fff7fb;
+    border-radius: 12px;
+    padding: 12px;
+    border: 1px solid rgba(255, 192, 217, 0.5);
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 10px;
+}
+
+.cat-form input {
+    border-radius: 8px;
+    border: 1px solid #d5c9e3;
+    padding: 6px 8px;
+    font-size: 0.9rem;
+}
+
+#update-profile-btn {
+    margin-top: 4px;
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: #d8e4ff;
+}
+
+.myth-buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 8px;
+}
+
+.myth-buttons button {
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: #e5ddff;
+}
