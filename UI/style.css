@@ -97,8 +97,31 @@ body {
     gap: 16px;
 }
 
+.message-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
 .message-text p {
     margin-top: 4px;
+}
+
+.message-facts {
+    background-color: rgba(255, 245, 251, 0.6);
+    padding: 16px;
+    border-radius: 12px;
+    border-left: 3px solid #ffc0d9;
+}
+
+.tiny-note-inline {
+    font-size: 0.75rem;
+    color: #938aa3;
+    margin-top: 8px;
+    margin-bottom: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .message-illustration {
@@ -110,8 +133,6 @@ body {
     width: 100%;
     border-radius: 16px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-    border: 1px solid rgba(0, 0, 0, 0.04);
-    background-color: #fdf7ff;
 }
 
 .small-illustration {
@@ -131,7 +152,7 @@ body {
         align-items: center;
     }
 
-    .message-text {
+    .message-text-container {
         flex: 2;
     }
 
