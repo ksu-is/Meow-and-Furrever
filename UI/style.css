@@ -129,14 +129,12 @@ body {
 }
 
 .cat-illustration {
-    max-width: 260px;
+    max-width: 400px;
     width: 100%;
-    border-radius: 16px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
 
 .small-illustration {
-    max-width: 200px;
+    max-width: 300px;
 }
 
 .illustration-caption {
