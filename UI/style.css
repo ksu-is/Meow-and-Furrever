@@ -179,6 +179,44 @@ body {
         gap: 16px;
     }
 }
+.card-overview {
+    border-left: 4px solid #d8e4ff;
+}
+
+.card-about {
+    border-left: 4px solid #ffc0d9;
+}
+
+.card-facts {
+    border-left: 4px solid #c5f2d5;
+}
+
+.fact-text {
+    margin-top: 10px;
+    font-size: 0.95rem;
+    color: #3e3748;
+}
+
+.card-facts button,
+.myth-buttons button,
+#update-profile-btn {
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: #e1ddff;
+    font-size: 0.9rem;
+}
+
+.card-facts button:hover,
+.myth-buttons button:hover,
+#update-profile-btn:hover {
+    background: #d1c9ff;
+}
+
+.site-footer p {
+    margin: 2px 0;
+}
 
 /* Lists & text */
 .card-intro {
