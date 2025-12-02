@@ -101,3 +101,21 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 });
+    // --------- Random cat fact logic ----------
+    const catFacts = [
+        "Cats can hide pain very effectively, which is why regular vet checkups matter.",
+        "Indoor cats still need enrichment like climbing spaces, toys, and daily play.",
+        "Stress in cats can show up as hiding, changes in appetite, or litter box issues.",
+        "Short, frequent play sessions are often better than one long session.",
+        "Dental disease is one of the most common health problems seen in adult cats."
+    ];
+
+    const factBtn = document.getElementById("random-fact-btn");
+    const factText = document.getElementById("random-fact-text");
+
+    if (factBtn && factText) {
+        factBtn.addEventListener("click", () => {
+            const randomIndex = Math.floor(Math.random() * catFacts.length);
+            factText.textContent = catFacts[randomIndex];
+        });
+    }
