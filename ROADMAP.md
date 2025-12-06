@@ -32,7 +32,7 @@
   ### Tasks
   #### Design & Prototype
   - [x] Create mockups for "My Cat's Profile" UI screens
-  - [ ] Design layout for myth-busting and educational content sections
+  - [x] Design layout for myth-busting and educational content sections
   - [x] Choose visuals for the app (color scheme, typography, etc.)
   #### Feature Development
   - [x] Implement basic "My Cat's Profile" page structure to code
@@ -40,12 +40,12 @@
   - [x] Save cat profile information
   #### Content Creation
   - [x] Draft educational text blurbs for common cat myths
-  - [ ] Add images or icons supporting cat health awareness
+  - [x] Add images or icons supporting cat health awareness
   - [x] Format content for easy integration into app or web prototype
   #### Testing & Review
   - [x] Test profile creation flow for bugs or missing fields
-  - [ ] Verify content displays correctly in UI mockups
-  - [ ] Collect feedback for improvements
+  - [x] Verify content displays correctly in UI mockups
+  - [x] Collect feedback for improvements
   ## Sprint 3 - Interaction, Care Tips, UI Enhancements
   ### Goals
   - Move from basic code and mockups to a more interactive experience
@@ -53,9 +53,9 @@
   - Expand educational content
   - Connect more features in the Python demo app
   ### Tasks
-  - [ ] Add cat profile for to the UI
-  - [ ] Create a "Generated Profile" display area in the UI
-  - [ ] Expand myth.data.json with additional myths
-  - [ ] Add care_tips.py for grooming and enrichment tips
-  - [ ] Update app.flow.py to use care_tips.py
-  - [ ] Enhance UI with new sections
+  - [x] Add cat profile for to the UI
+  - [x] Create a "Generated Profile" display area in the UI
+  - [x] Expand myth.data.json with additional myths
+  - [x] Add care_tips.py for grooming and enrichment tips
+  - [x] Update app.flow.py to use care_tips.py
+  - [x] Enhance UI with new sections
